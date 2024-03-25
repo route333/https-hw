@@ -1,0 +1,12 @@
+ul{
+    display: block;
+}
+
+li{
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    width: 200px;
+}
