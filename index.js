@@ -10,7 +10,7 @@ function createCountry(countries) {
       );
       const li = document.createElement("li");
       li.innerHTML = `
-      <div>
+      <div class="country-container">
         <h1>${country.name.common}</h1>
         <p>Capital: ${country.capital}</p>
         <p>Currency: ${currencies}</p>

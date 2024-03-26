@@ -1,16 +1,62 @@
-ul{
-    display: block;
-}
-
-li{
+body {
+    background-color: rgb(223, 223, 223);
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-img{
-    width: 200px;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-body{
-    background-color: grey;
+.country-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.country-container h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.country-container p {
+    color: #666666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.country-container img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+input {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    transition: box-shadow 0.3s;
+}
+
+input:focus {
+    box-shadow: 0px 0px 10px #6c5ce7, 0px 0px 20px #6c5ce7; 
 }
